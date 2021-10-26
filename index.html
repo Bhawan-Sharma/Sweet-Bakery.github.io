@@ -17,6 +17,12 @@
 	$(document).ready(function(){
 		$("#myModal").modal('show');
 	});
+
+	$(document).ready(function(){
+   setTimeout(function(){
+       $('#myModal').modal('show');
+   }, 60000);
+});
 </script>
 
 <style >
@@ -27,7 +33,7 @@
 <body>
 	<!---------------------------------------------------------------------modalllllllllllllllllll------------->
 <div id="myModal" class="modal fade">
-    <div class="modal-dialog" style="width: 300px;">
+    <div class="modal-dialog" style="width: 100%;">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">Offers for this winter season</h5>
@@ -66,7 +72,7 @@
 
 <!-------------------------------------------------------navbar--------------------------------------------------------->
 
-<nav class="navbar navbar-expand-sm navbar-light bg- sticky-top shadow p-2 mb-5 bg-white rounded">
+<nav class="navbar navbar-expand-sm navbar-light bg- sticky-top shadow p-2 mb-5 bg- rounded" style="background-color:darkred;">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html"><img src="images\titleimage1.jpg" width="50" height="40"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -75,19 +81,19 @@
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html" style="color: darkred;">Home</a>
+          <a class="nav-link" href="index.html" style="color:white ;">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="blog.html"style="color: darkred;">Gallery</a>
+          <a class="nav-link" href="blog.html"style="color: white;">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#M1"style="color: darkred;">Shop</a>
+          <a class="nav-link" href="#M1"style="color: white;">Shop</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="blog.html"style="color: darkred;">Blog</a>
+          <a class="nav-link" href="blog.html"style="color: white;">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html"style="color: darkred;">Contact Us</a>
+          <a class="nav-link" href="contact.html"style="color: white;">Contact Us</a>
         </li>
         
       </ul>
@@ -255,7 +261,7 @@
 		  <img class="card-img-top" src="images\p3.jpg" alt="Card image"height="143">
 		  <div class="card-body">
 		    <h6 class="card-title">Dark Choco cake</h6>
-		    <p style="color:black;">Rs 89 /- 
+		    <p style="color:black;">Rs 189/- 
 		        <span class="add-to-cart">
                   <button class="btn btn-danger cart" style="font-size: 10px;">Add To Cart</button>
                 </span>
@@ -268,7 +274,7 @@
 		  <img class="card-img-top" src="images\p4.jpg" alt="Card image"height="143">
 		  <div class="card-body">
 		    <h6 class="card-title">Choco Cookies</h6>
-		    <p style="color:black;">Rs 79 /- 
+		    <p style="color:black;">Rs 179/- 
 		        <span class="add-to-cart">
                   <button class="btn btn-danger cart" style="font-size: 10px;">Add To Cart</button>
                 </span>
@@ -282,7 +288,7 @@
 		  <img class="card-img-top" src="images\p5.jpg" alt="Card image"height="143">
 		  <div class="card-body">
 		    <h6 class="card-title">Donut</h6>
-		    <p style="color:black;">Rs 99 /- 
+		    <p style="color:black;">Rs 199/- 
 		        <span class="add-to-cart">
                   <button class="btn btn-danger cart" style="font-size: 10px;">Add To Cart</button>
                 </span>
@@ -307,7 +313,7 @@
 		  <img class="card-img-top" src="images\p6.jpg" alt="Card image" height="143">
 		  <div class="card-body">
 		    <h6 class="card-title" >Choco Pastry</h6>
-		    <p style="color:black;">Rs 99 /- 
+		    <p style="color:black;">Rs 199/- 
 		        <span class="add-to-cart">
                   <button class="btn btn-danger cart" style="font-size: 10px;">Add To Cart</button>
                 </span>
@@ -320,7 +326,7 @@
 		  <img class="card-img-top" src="images\p7.jpg" alt="Card image " height="143">
 		  <div class="card-body">
 		    <h6 class="card-title">Choco Sandwitch...</h6>
-		    <p style="color:black;">Rs 59 /- 
+		    <p style="color:black;">Rs 159/- 
 		        <span class="add-to-cart">
                   <button class="btn btn-danger cart" style="font-size: 10px;">Add To Cart</button>
                 </span>
@@ -334,7 +340,7 @@
 		  <img class="card-img-top" src="images\p10.jpg" alt="Card image" height="143">
 		  <div class="card-body">
 		    <h6 class="card-title">Red velvet pastry </h6>
-		    <p style="color:black;">Rs 399 /- 
+		    <p style="color:black;">Rs 399/- 
 		        <span class="add-to-cart">
                   <button class="btn btn-danger cart" style="font-size: 10px;">Add To Cart</button>
                 </span>
@@ -361,7 +367,7 @@
 		  <img class="card-img-top" src="images\p8.jpg" alt="Card image"height="143">
 		  <div class="card-body">
 		    <h6 class="card-title">Bread</h6>
-		    <p style="color:black;">Rs 89 /- 
+		    <p style="color:black;">Rs 189/- 
 		        <span class="add-to-cart">
                   <button class="btn btn-danger cart" style="font-size: 10px;">Add To Cart</button>
                 </span>
@@ -433,8 +439,8 @@
 		<div class="card shadow" style="width:100%;" >
 		  <img class="card-img-top" src="images\shakesmint.jpg" alt="Card image"height="143">
 		  <div class="card-body">
-		    <h6 class="card-title">Avocado Mint shake</h6>
-		    <p style="color:black;">Rs 189 /- 
+		    <h6 class="card-title">Avocado shake</h6>
+		    <p style="color:black;">Rs 189/- 
 		        <span class="add-to-cart">
                   <button class="btn btn-danger cart" style="font-size: 10px;">Add To Cart</button>
                 </span>
@@ -446,8 +452,8 @@
 		<div class="card shadow" style="width:100%">
 		  <img class="card-img-top" src="images\chocoshake.png" alt="Card image"height="143">
 		  <div class="card-body">
-		    <h6 class="card-title">Chocolate Brown shake</h6>
-		    <p style="color:black;">Rs 179 /- 
+		    <h6 class="card-title">ChocoBrown shake</h6>
+		    <p style="color:black;">Rs 179/- 
 		        <span class="add-to-cart">
                   <button class="btn btn-danger cart" style="font-size: 10px;">Add To Cart</button>
                 </span>
@@ -461,7 +467,7 @@
 		  <img class="card-img-top" src="images\orange.jpg" alt="Card image"height="143">
 		  <div class="card-body">
 		    <h6 class="card-title">Orange shake</h6>
-		    <p style="color:black;">Rs 199 /- 
+		    <p style="color:black;">Rs 199/- 
 		        <span class="add-to-cart">
                   <button class="btn btn-danger cart" style="font-size: 10px;">Add To Cart</button>
                 </span>
@@ -505,7 +511,7 @@
     	<h3 style="font: normal 40px 'Cookie', cursive; ">Our Happy Customer Reviews</h3>
 	<div class="row">
 		<div class="col-md-3">
-		<div class="card" style="width:100%;background-color: palegreen;">
+		<div class="card" style="width:100%;background-color: palegreen;height: 520px;">
 		  <img class="card-img-top" src="images\avatar10.jpg" style=" width: 180px;height: 180px;border-radius: 50%; margin-left: auto; margin-right: auto;" alt="Card image">
 		  <div class="card-body">
 		    <p class="card-text">“Never disappointed when I stop at Sweet Bakery. We’ve got birthday cakes, cupcakes, cookies, pepperoni rolls and novelty cakes there over the years, it’s all fresh and delicious. The employees are friendly and helpful and the prices are very reasonable.Cold brew fans, Patti’s is the best around.”
@@ -515,7 +521,7 @@
 		</div>
 	</div>
 	<div class="col-md-3">
-		<div class="card" style="width:100%;background-color: lightpink; height: 485px;">
+		<div class="card" style="width:100%;background-color: lightpink; height: 520px;">
 		  <img class="card-img-top" src="images\avatar13.png" style=" width: 180px;height: 180px;border-radius: 50%; margin-left: auto; margin-right: auto;" alt="Card image">
 		  <div class="card-body">
 		    <p class="card-text">“I have been to other bakeries, and this is the best. It’s comfortable here. The customer service is outstanding. Plus, they support the community. They are good people. They make you feel like family.”
@@ -524,7 +530,7 @@
 		</div>
 	</div>
 	<div class="col-md-3">
-		<div class="card" style="width:100%;background-color: powderblue;"height: 485px;>
+		<div class="card" style="width:100%;background-color: powderblue; height: 520px;">
 		  <img class="card-img-top" src="images\avatar11.jpg" style=" width: 180px;height: 180px;border-radius: 50%; margin-left: auto; margin-right: auto;" alt="Card image">
 		  <div class="card-body">
 		    <p class="card-text">“We initially chose Patti’s due to the location. It was very close to our wedding venue. From the initial contact to the delivery, everything was great. We chose 2 different layers/flavors: almond raspberry & strawberry champagne. Both were incredibly delicious and our guests were coming back for seconds!”
@@ -533,10 +539,10 @@
 		</div>
 	</div>
 	<div class="col-md-3">
-		<div class="card" style="width:100%;background-color: lightgoldenrodyellow;">
+		<div class="card" style="width:100%;background-color: lightgoldenrodyellow;height: 100%;">
 		  <img class="card-img-top" src="images\avatar14.png" style=" width: 180px;height: 180px;border-radius: 50%; margin-left: auto; margin-right: auto;" alt="Card image">
 		  <div class="card-body">
-		    <p class="card-text">“I placed a very large assorted Christmas cookie order for this Christmas, and I can honestly say, the cookies were the BEST cookies I have ever had in my life. I made up cookie trays for the members of my family as part of their Christmas gifts. Thank you guys for making me so proud to give your pastries! I included the tag off the box in everyone’s tray, so that they, too,<span id="dots5">.....</span><span style="display: none;" id="more5"> would know just where I got these amazing cookies. I can’t tell you how much we all enjoyed them. I’ll be coming back every year to reorder, as well as getting all of my cakes and pastries for every family event during the year too from Patti’s. Give them a try, I promise you, you will never be disappointed in the quality…it is truly top notch!”
+		    <p class="card-text">“I placed a very large assorted Christmas cookie order for this Christmas, and I can honestly say, the cookies were the BEST cookies I have ever had in my life. I made up cookie trays for the members of my family as part of their Christmas gifts. Thank you guys for making me so proud to give your pastries! I included the tag off the box in everyone’s tray, <span id="dots5">.....</span><span style="display: none;" id="more5">so that they, too, would know just where I got these amazing cookies. I can’t tell you how much we all enjoyed them. I’ll be coming back every year to reorder, as well as getting all of my cakes and pastries for every family event during the year too from Patti’s. Give them a try, I promise you, you will never be disappointed in the quality…it is truly top notch!”
 
             Lori – Facebook Review</span><button onclick="myFunction5()" id="myBtn5"style="background-color:transparent;border:transparent; color:gray;">Read more</button></p>
 		  </div>
@@ -557,21 +563,21 @@
 	
 	<br>
 	<div class="row">
-	<div class="col-md-3">
+	<div class="col-md-3" >
 		<h4 style="color:darkred; padding-left: px;"><b>CONTACT</b></h4>
 		<p style="color:darkred;">
 			Baishnabghata Road<br>
 			city:KOLKATA<br>
 			State:WEST BENGAL<br>
 			zip Code:700047<br>
-			Phone :9877602035
+			Phone :9877602035<br>
 			Email:bhawansharma15@gmail.com
 		</p>
 	</div>
 	<div class="col-md-3" >
 		<h4 style="color:darkred; padding-left: 30px;"><b>MENU</b></h4>
 		<ul style="list-style-type: none; ">
-		<li><a style="color:darkred; " href="index.html">Home</a></li>
+		<li><a style="color:darkred; " href="index.html" >Home</a></li>
 		<li><a style="color:darkred;"  href="blog.html">Gallery</a></li>
 		<li><a style="color:darkred;" href="#M1">Shop</a></li> 
 		<li><a style="color:darkred;" href="blog.html">Blog</a></li>
@@ -579,14 +585,12 @@
 		<li><a style="color:darkred;" href="#M4">About us</a></li>
     </ul>
 	</div>
-	<div class="col-md-3" >
+	<div class="col-md-3"  >
 		<h4 style="color:darkred; padding-left: 30px;"><b>RESENT ADDED PRODUCTS</b></h4>
 		<ul style="list-style-type: none; ">
 		<li><a style="color:darkred;text-decoration: none; " href="#M2">Cakes</a></li>
 		<li><a style="color:darkred;text-decoration: none;"  href="#M2">Choco cakes</a></li>
 		<li><a style="color:darkred;text-decoration: none;" href="#M3">Shakes</a></li>
-	</div>
-	<div class="col-md-3" >
 		<h4 style="color:darkred; "><b>SUBSCRIBE US</b></h4>
 		<input type="text" style="padding-right:4px" placeholder="Your email address">
     <button  type="submit"  style="background-color:red; padding-left: 4px;color: white;"><b>Sign UP</b></button><br>
@@ -598,6 +602,10 @@
 		<a  style="text-decoration: none;padding:4px;color:red;" href="#" class="fa fa-youtube"></a>
 		<a style="text-decoration: none; padding:4px;color:magenta;" href="#" class="fa fa-instagram"></a>
 		<a style="text-decoration: none;padding:4px;color:red" href="#" class="fa fa-pinterest"></a>
+	</div>
+	<div class="col-md-3" >
+		<h4 style="color:darkred; "><b>Find Us On</b></h4>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d13747.793520993668!2d75.88194718269092!3d30.522498707372755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d30.524401599999997!2d75.8975078!4m5!1s0x391067c5e423070d%3A0x44a21e577824143a!2saacp%20malerkotla!3m2!1d30.522037899999997!2d75.8827739!5e0!3m2!1sen!2sin!4v1635239626229!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 	</div>
 </div>
 </div>
